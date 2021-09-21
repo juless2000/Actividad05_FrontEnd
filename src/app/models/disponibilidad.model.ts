@@ -4,8 +4,8 @@ import { Usuario } from "./usuario.model";
 
 export class Disponibilidad {
     idDisponibilidad?:number;
-    horaInicio?:Date;
-    horaFin?:Date;
+    horaInicio?:Time;
+    horaFin?:Time;
     dia?:string;
     ciclo?:Ciclo
     usuario?:Usuario

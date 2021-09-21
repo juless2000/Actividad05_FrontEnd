@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Disponibilidad } from '../models/disponibilidad.model';
 
-const baseUrl = 'http://localhost:8096/rest/modalidad';
+const baseUrl = 'http://localhost:8096/rest/disponibilidad';
 
 @Injectable({
   providedIn: 'root'
